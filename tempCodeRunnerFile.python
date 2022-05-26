@@ -1,0 +1,6 @@
+import firebase_admin
+from firebase_admin import credentials
+
+cred = credentials.Certificate("major-project-17a89-firebase-adminsdk-0qkgt-f38c07ef81.json")
+firebase_admin.initialize_app(cred)
+
