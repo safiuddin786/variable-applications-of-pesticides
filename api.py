@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 
-from modeltest import predictModel
+from model import predictModel
 app = Flask(__name__)
 
 @app.route('/')
