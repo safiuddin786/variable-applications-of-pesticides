@@ -3,7 +3,6 @@
 # Base ----------------------------------------
 matplotlib>=3.2.2
 numpy>=1.18.5
-libgl1-mesa-glx
 opencv-python-headless>=4.1.1
 Pillow>=7.1.2
 PyYAML>=5.3.1
