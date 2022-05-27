@@ -3,7 +3,7 @@ import torch
 
 def predictModel(image):
     #     return results.pandas().xyxy[0]
-    model = torch.hub.load('ultralytics/yolov5:master', 'custom', 'yolov5/best.pt') 
+    model = torch.hub.load('ultralytics/yolov5:master', 'custom', 'best.pt') 
     # Inference
     results = model(image)
     # Results, change the flowing to: results.show()
